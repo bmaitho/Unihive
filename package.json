@@ -9,7 +9,9 @@
     "dev:all": "concurrently \"npm run dev\" \"npm run backend\"",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build"
+    "build": "vite build",
+    "vercel-build": "npm install --no-optional && npm run build"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
